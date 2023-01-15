@@ -8,8 +8,7 @@ export const Desc = () => {
       <h1 className="capitalize font-bold text-[36px]">
         {" "}
         <span
-          className="border border-b-#
-#F4511E border-l-0 border-r-0 border-t-0"
+          className="border border-b-orange-500 border-b-4 border-l-0 border-r-0 border-t-0"
         >
           {" "}
           minimum living cost{" "}
@@ -23,10 +22,10 @@ export const Desc = () => {
             {desc?.map((item, index) => {
               return (
                 <div key={index} className="">
-                  <div className="rounded-[10px] shadow-md p-5 bg-#ffffff w-[77px] h-[77px]">
+                  <div className="rounded-[10px] border shadow-md p-5 bg-#ffffff w-[77px] h-[77px]">
                     <img src={item.icon} alt="" />
                   </div>
-                  <p className="text-[#18191F] font-semibold">{item.desc}</p>
+                  <p className="text-gray-900 text-[20px] capitalize font-semibold">{item.desc}</p>
                 </div>
               );
             })}
@@ -34,11 +33,13 @@ export const Desc = () => {
           <div className="grid justify-center items-center grid-cols-3 my-20">
             {desc2?.map((item, index) => {
               return (
-                <div key={index} className="">
+                <div key={index} className="leading-9">
                   <div className="rounded-[10px] shadow-md p-5 bg-#ffffff w-[77px] h-[77px]">
                     <img src={item.icon} alt="" />
                   </div>
-                  <p className="text-[#18191F] font-semibold">{item.desc}</p>
+                  <p className="text-gray-900 leading-9 text-[20px] capitalize font-semibold">
+                    {item.desc}
+                  </p>
                 </div>
               );
             })}

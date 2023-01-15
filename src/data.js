@@ -8,28 +8,28 @@ import icon6 from "../src/assets/vector6.png"
 export const desc = [
     {
         icon: icon1,
-        desc: "pay as little as possible"
+        desc: "pay as little as possible."
     },
     {
         icon: icon2,
-        desc: "Enjoy wisdom of community"
+        desc: "Enjoy wisdom of community."
     },
     {
         icon: icon3,
-        desc: "let's somebody else take care of landlord"
+        desc: "let's somebody else take care of landlord."
     }]
-    
+
  export const desc2 = [   
     {
         icon: icon4,
-        desc: "enjoy peaceful environment"
+        desc: "enjoy peaceful environment."
     },
     {
         icon: icon5,
-        desc: "stay safe! save money!"
+        desc: "stay safe! save money."
     },
     {
         icon: icon6,
-        desc: "pay for what you use"
+        desc: "pay for what you use."
     },
 ]
