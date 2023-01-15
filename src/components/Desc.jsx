@@ -23,7 +23,7 @@ export const Desc = () => {
             {desc?.map((item, index) => {
               return (
                 <div key={index} className="">
-                  <div className="rounded-[10px] shadow-md p-4 bg-#ffffff w-[77px] h-[77px]">
+                  <div className="rounded-[10px] shadow-md p-5 bg-#ffffff w-[77px] h-[77px]">
                     <img src={item.icon} alt="" />
                   </div>
                   <p className="text-[#18191F] font-semibold">{item.desc}</p>
@@ -35,7 +35,7 @@ export const Desc = () => {
             {desc2?.map((item, index) => {
               return (
                 <div key={index} className="">
-                  <div className="rounded-[10px] shadow-md p-4 bg-#ffffff w-[77px] h-[77px]">
+                  <div className="rounded-[10px] shadow-md p-5 bg-#ffffff w-[77px] h-[77px]">
                     <img src={item.icon} alt="" />
                   </div>
                   <p className="text-[#18191F] font-semibold">{item.desc}</p>
