@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    body {
+        @apply font-primary scroll-smooth
+    }
+
+    .padding {
+        @apply max-w-full px-[8%]
+    }
+    .primary {
+        @apply text-[#F4511E]
+    }
+}
