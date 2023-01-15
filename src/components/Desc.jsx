@@ -1,6 +1,6 @@
-import React from "react";
 import image from "../assets/desc.png";
 import { desc } from "../data";
+import { desc2 } from "../data";
 
 export const Desc = () => {
   return (
@@ -18,17 +18,31 @@ export const Desc = () => {
       </h1>
       <div className="flex flex-col md:flex-row">
         <img src={image} alt="" />
-        <div className="grid justify-center items-center grid-cols-3">
-          {desc?.map((item, index) => {
-            return (
-              <div key={index} className="">
-                <div className="rounded-[10px] shadow-md p-4 bg-#ffffff w-[77px] h-[77px]">
-                  <img src={item.icon} alt="" />
+        <div className="flex flex-col justify-center">
+          <div className="grid justify-center items-center grid-cols-3 ">
+            {desc?.map((item, index) => {
+              return (
+                <div key={index} className="">
+                  <div className="rounded-[10px] shadow-md p-4 bg-#ffffff w-[77px] h-[77px]">
+                    <img src={item.icon} alt="" />
+                  </div>
+                  <p className="text-[#18191F] font-semibold">{item.desc}</p>
                 </div>
-                <p className="text-[#18191F] font-semibold">{item.desc}</p>
-              </div>
-            );
-          })}
+              );
+            })}
+          </div>
+          <div className="grid justify-center items-center grid-cols-3 my-20">
+            {desc2?.map((item, index) => {
+              return (
+                <div key={index} className="">
+                  <div className="rounded-[10px] shadow-md p-4 bg-#ffffff w-[77px] h-[77px]">
+                    <img src={item.icon} alt="" />
+                  </div>
+                  <p className="text-[#18191F] font-semibold">{item.desc}</p>
+                </div>
+              );
+            })}
+          </div>
         </div>
       </div>
     </div>

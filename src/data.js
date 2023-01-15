@@ -17,7 +17,9 @@ export const desc = [
     {
         icon: icon3,
         desc: "let's somebody else take care of landlord"
-    },
+    }]
+    
+ export const desc2 = [   
     {
         icon: icon4,
         desc: "enjoy peaceful environment"
