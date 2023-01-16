@@ -9,6 +9,9 @@ module.exports = {
       fontFamily: {
         primary: "Inter",
       },
+      backgroundImage: {
+        'hero': "url('./src/assets/hero.png')",
+      },
       screens: {
         sm: "640px",
         md: "768px",

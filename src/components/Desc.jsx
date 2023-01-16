@@ -4,7 +4,7 @@ import { desc2 } from "../data";
 
 export const Desc = () => {
   return (
-    <div className="padding">
+    <div className="padding py-[100px]">
       <h1 className="capitalize font-bold text-[36px]">
         {" "}
         <span
