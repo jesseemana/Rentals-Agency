@@ -1,8 +1,7 @@
 import React from "react";
 import { houseData } from "../houseData";
-import { BiBath, BiBed } from "react-icons/bi";
-import { MdOutlineWindow } from "react-icons/md";
 import { HouseListing } from "./HouseListing";
+import { Pagination } from "./Pagination";
 
 export const Houses = () => {
   return (
@@ -16,7 +15,10 @@ export const Houses = () => {
             view all property
           </button>
         </div>
-      <HouseListing houseData={houseData} />
+        <HouseListing houseData={houseData} />
+        <div className="flex items-center justify-center">
+          <Pagination />
+        </div>
       </div>
     </>
   );

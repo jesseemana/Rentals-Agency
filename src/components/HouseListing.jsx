@@ -10,7 +10,7 @@ export const HouseListing = ({ houseData }) => {
         return (
           <div
             key={index}
-            className="w-[358px] basis-[33.3333333%] bg-[#ffffff] my-10 rounded-[27px] border"
+            className="w-[358px] shadow-lg basis-[33.3333333%] bg-[#ffffff] my-10 rounded-[27px] border"
           >
             <img src={house.Image} alt="house interior" />
             <div className="px-4 py-5">
