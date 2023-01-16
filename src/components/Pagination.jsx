@@ -5,35 +5,40 @@ export const Pagination = () => {
   const [page, setPage] = useState(1);
 
   const handleButton = () => {
-    setActive(!active);
+    console.log("clicked");
   };
 
   return (
-    <div className="font-bold">
-      <button onClick={handleButton} className={`p-4 text-[#F4511E]border`}>
+    <div className={`font-bold`}>
+      <button
+        onClick={handleButton}
+        className={`text-[#BDBDBD] p-4 border rounded-l-lg`}
+      >
         Prev
       </button>
       <button
-        onClick={handleButton}
-        className={`text-[#F4511E] p-4 border bg-white`}
+        onClick={() => setActive(!active)}
+        className={`${
+          active ? "bg-[#F4511E] text-[#ffffff]" : "text-[#F4511E] bg-[#ffffff]"
+        } p-4 border bg-white`}
       >
         1
       </button>
       <button
-        onClick={handleButton}
-        className={`text-[#F4511E] p-4 border bg-white`}
+        onClick={() => setActive(!active)}
+        className={` p-4 border bg-white`}
       >
         2
       </button>
       <button
-        onClick={handleButton}
-        className={`text-[#F4511E] p-4 border bg-white`}
+        onClick={() => setActive(!active)}
+        className={` p-4 border bg-white`}
       >
         3
       </button>
       <button
-        onClick={handleButton}
-        className={`text-[#F4511E] p-4 border bg-white`}
+        onClick={() => setActive(!active)}
+        className={` p-4 border bg-white rounded-r-lg`}
       >
         Next
       </button>

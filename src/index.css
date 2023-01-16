@@ -10,11 +10,16 @@
     .padding {
         @apply max-w-full px-[8%]
     }
+
     .primary {
         @apply text-[#F4511E]
     }
 
-    .span-text{
+    .span-text {
         @apply border border-b-orange-500 border-b-4 border-l-0 border-r-0 border-t-0
+    }
+
+    .icons {
+        @apply text-orange-500 text-xl
     }
 }
