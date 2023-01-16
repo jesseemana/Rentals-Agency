@@ -1,14 +1,14 @@
 import { Desc } from "./components/Desc";
 import { Hero } from "./components/Hero";
-import { Navbar } from "./components/Navbar";
+import { Houses } from "./components/Houses";
 import "./index.css";
 
 function App() {
   return (
     <div className="">
-      {/* <Navbar /> */}
       <Hero />
       <Desc />
+      <Houses />
     </div>
   );
 }

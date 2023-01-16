@@ -13,4 +13,8 @@
     .primary {
         @apply text-[#F4511E]
     }
+
+    .span-text{
+        @apply border border-b-orange-500 border-b-4 border-l-0 border-r-0 border-t-0
+    }
 }

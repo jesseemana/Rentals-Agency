@@ -8,7 +8,7 @@ export const Desc = () => {
       <h1 className="capitalize font-bold text-[36px]">
         {" "}
         <span
-          className="border border-b-orange-500 border-b-4 border-l-0 border-r-0 border-t-0"
+          className="span-text"
         >
           {" "}
           minimum living cost{" "}
