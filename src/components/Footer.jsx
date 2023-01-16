@@ -14,7 +14,7 @@ import {
 export const Footer = () => {
   return (
     <div className="padding py-[150px]">
-      <div className="flex justify-around border border-[3px] border-t-orange-500 border-l-0 border-r-0 border-b-0 py-20">
+      <div className="flex justify-around border-[3px] border-t-orange-500 border-l-0 border-r-0 border-b-0 py-20">
         <h1 className="font-bold text-[52px] capitalize">logo</h1>
         <div>
           <p className="flex items-center mb-10 gap-x-2">
