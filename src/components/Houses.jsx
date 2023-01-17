@@ -15,7 +15,9 @@ export const Houses = () => {
             view all property
           </button>
         </div>
-        <HouseListing houseData={houseData} />
+        <div className="flex justify-center">
+          <HouseListing houseData={houseData} />
+        </div>
         <div className="flex items-center justify-center">
           <Pagination />
         </div>

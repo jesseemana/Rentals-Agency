@@ -4,7 +4,7 @@ import { MdOutlineWindow } from "react-icons/md";
 
 export const HouseListing = ({ houseData }) => {
   return (
-    <div className="grid grid-cols-3 items-center justify-center ml-[100px]">
+    <div className="grid grid-cols-3 gap-x-[170px]">
       {/* IMPORT THE ARRAY CONTAINING ALL THE HOUSE DATA AT THE TOP AND MAP INTO A NEW CONTAINER ELEMENT */}
       {houseData?.map((house, index) => {
         return (
