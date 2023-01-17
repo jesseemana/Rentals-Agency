@@ -10,8 +10,15 @@ import {
   BsYoutube,
   BsPinterest,
 } from "react-icons/bs";
+import { useState, useEffect } from "react";
 
 export const Footer = () => {
+  const [year, setYear] = useState(0);
+
+  useEffect(() => {
+    setYear(() => new Date().getFullYear());
+  }, []);
+  
   return (
     <div className="padding py-[150px]">
       <div className="flex justify-around border-[3px] border-t-orange-500 border-l-0 border-r-0 border-b-0 py-20">
@@ -26,13 +33,13 @@ export const Footer = () => {
               <FiPhone className="icons" />
               (123) 456-7890
             </p>
-            <p className="flex items-center gap-x-2">
-              <img src={shape} alt="" />
+            <div className="flex items-center gap-x-2">
+              <img src={shape} alt="fax machine icon" />
               <p>(123) 456-7890</p>
-            </p>
+            </div>
           </div>
           <div className="flex gap-x-10 mt-10">
-            <p className="text-[#0A142F] text-md">social media</p>
+            <p className="text-[#0A142F] text-md capitalize">social media</p>
             <BsFacebook className="icons" />
             <BsInstagram className="icons" />
             <BsLinkedin className="icons" />
@@ -42,6 +49,7 @@ export const Footer = () => {
           </div>
         </div>
       </div>
+      <div></div>
       <div className="flex justify-around py-10">
         <ul className="flex gap-x-5">
           <li>ABOUT US</li>
@@ -50,8 +58,8 @@ export const Footer = () => {
           <li>PRIVACY POLICY</li>
           <li>DISCLAIMER</li>
         </ul>
-        <p className="text-[#0A142F] text-[14px]">
-          Copyright © 2020 Minimumlivingcost. All rights reserved
+        <p className="text-[#63666b] text-[14px]">
+          Copyright © {year} Minimumlivingcost. All rights reserved
         </p>
       </div>
     </div>
