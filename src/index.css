@@ -26,4 +26,8 @@
     .form-input {
         @apply px-3 py-2 bg-gray-100 outline-none rounded-sm border border-gray-200
     }
+
+    .form-label {
+        @apply flex font-bold items-center
+    }
 }

@@ -14,7 +14,7 @@ export const Form = () => {
           </h1>
           <div>
             <div>
-              <label htmlFor="name" className="flex items-center">
+              <label htmlFor="name" className="form-label">
                 Name
                 <span>
                   <FaAsterisk className="text-orange-500 text-[13px]" />
@@ -27,7 +27,7 @@ export const Form = () => {
               />
             </div>
             <div>
-              <label htmlFor="name" className="flex items-center">
+              <label htmlFor="name" className="form-label">
                 Addres
                 <span>
                   <FaAsterisk className="text-orange-500 text-[13px]" />
@@ -40,7 +40,7 @@ export const Form = () => {
               />
             </div>
             <div>
-              <label htmlFor="name" className="flex items-center">
+              <label htmlFor="name" className="form-label">
                 Unit Number
                 <span>
                   <FaAsterisk className="text-orange-500 text-[13px]" />
