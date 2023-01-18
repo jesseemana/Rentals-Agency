@@ -22,4 +22,8 @@
     .icons {
         @apply text-orange-500 text-xl
     }
+
+    .form-input {
+        @apply px-3 py-2 bg-gray-100 outline-none rounded-sm border border-gray-200
+    }
 }

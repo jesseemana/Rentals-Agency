@@ -1,8 +1,10 @@
-import { Desc } from "./components/Desc";
-import { Footer } from "./components/Footer";
-import { Hero } from "./components/Hero";
-import { Houses } from "./components/Houses";
 import "./index.css";
+import { Hero } from "./components/Hero";
+import { Desc } from "./components/Desc";
+import { Form } from "./components/Form";
+import { Footer } from "./components/Footer";
+import { Houses } from "./components/Houses";
+import { Flexibility } from "./components/Flexibility";
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
       <Hero />
       <Desc />
       <Houses />
+      <Flexibility />
+      <Form />
       <Footer />
     </div>
   );
