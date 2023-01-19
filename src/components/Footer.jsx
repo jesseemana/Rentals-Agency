@@ -20,7 +20,7 @@ export const Footer = () => {
   }, []);
 
   return (
-    <section id="footer" className="padding py-[10px]">
+    <section id="footer" className="padding py-[30px]">
       <div className="flex justify-around border-[3px] border-t-orange-500 border-l-0 border-r-0 border-b-0 py-20">
         <h1 className="font-bold text-[52px] capitalize">logo</h1>
         <div>
