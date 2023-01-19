@@ -49,8 +49,8 @@ export const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="after:content-[''] after:bg-[#8892b0] after:ml-[100px] after:h-[1px] after:w-[90%] after:relative after:inline-block"></div>
-      <div className="flex items-center justify-center gap-x-10 py-10">
+      <div className="after:content-[''] after:bg-[#8892b0] after:ml-[60px] after:h-[1px] after:w-[90%] after:relative after:inline-block"></div>
+      <div className="flex items-center justify-around  py-10">
         <div className="flex gap-x-5">
           <a href="#">ABOUT US</a>
           <a href="#">CONTACT</a>

@@ -162,7 +162,7 @@ export const Form = () => {
                 Drag your images here, or{" "}
                 <span className="text-orange-500 font-bold">browse</span>
               </h1>
-              <p className="font-[100] text-[12px] text-center text-gray-500">
+              <p className="font-[500] text-[12px] text-center text-gray-500">
                 Supported: JPG, JPEG, PNG
               </p>
             </div>
