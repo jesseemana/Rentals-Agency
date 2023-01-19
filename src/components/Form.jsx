@@ -3,14 +3,13 @@ import { FaAsterisk } from "react-icons/fa";
 
 export const Form = () => {
   return (
-    <section id="form" className="padding">
-      <div className="py-10">
+    <section id="form" className="padding py-10">
         <h1 className="text-center capitalize font-[900] text-[22px] py-5">
           your property with us and be confident your room will be filled out!
         </h1>
         <form
           action="submit"
-          className="py-5 flex flex-col itesm-center px-20 shadow-lg border rounded-md"
+          className="py-10 flex flex-col itesm-center px-20 shadow-lg border rounded-md"
         >
           <h1 className="font-[800] text-center text-[23px] text-orange-500 capitalize">
             add a new property
@@ -153,7 +152,7 @@ export const Form = () => {
             />
           </div>
           {/* UPLOAD SECTION */}
-          <div className="ml-[50px]">
+          <div className="ml-[50px] mb-10">
             <label htmlFor="upload photos" className="form-label">
               upload photos
             </label>
@@ -167,11 +166,11 @@ export const Form = () => {
               </p>
             </div>
           </div>
-          <button className="button mx-auto my-10 p-3">
+          <button className="button mx-auto p-3">
             add a new property
           </button>
         </form>
-      </div>
+      
     </section>
   );
 };
