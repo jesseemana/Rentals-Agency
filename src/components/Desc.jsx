@@ -15,7 +15,7 @@ export const Desc = () => {
         </span>
         takes care of everything
       </h1>
-      <div className="flex flex-col md:flex-row">
+      <div className="flex flex-col justify-around md:flex-row">
         <img src={image} alt="" />
         <div className="flex flex-col justify-center">
           <div className="grid justify-center items-center grid-cols-3 ">

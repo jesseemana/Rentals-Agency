@@ -11,7 +11,7 @@ export const Houses = () => {
           <h1 className="capitalize font-bold text-[36px] text-[#18191F] ">
             <span className="span-text">list</span> of properties
           </h1>
-          <button className="bg-orange-500 rounded-md p-3 capitalize text-white">
+          <button className="button">
             view all property
           </button>
         </div>

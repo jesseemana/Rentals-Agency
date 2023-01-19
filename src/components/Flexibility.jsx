@@ -6,12 +6,12 @@ import bottles from "../assets/bottles.png"
 export const Flexibility = () => {
   return (
     <section id="flexibilty" className="padding py-10">
-      <div className="flex items-center justify-between">
+      <div className="flex items-center gap-x-5 justify-around">
         {/* IMAGES GO HERE */}
         <div className="grid grid-cols-2">
           <img src={bed} alt="" />
           <img src={person} alt="" />
-          <img src={bottles}alt="" />
+          <img src={bottles} alt="" />
           <img src={group} alt="" />
         </div>
         {/* TEXT GO HERE */}
@@ -25,7 +25,7 @@ export const Flexibility = () => {
             selective roommate finder option. We provide you the flexibility
             that you most desire.
           </p>
-          <button className="capitalize my-3 p-3 rounded-md text-[#ffffff] bg-orange-500">
+          <button className="button my-3">
             search rooms
           </button>
         </div>

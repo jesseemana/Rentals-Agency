@@ -20,7 +20,7 @@ export const Footer = () => {
   }, []);
 
   return (
-    <div className="padding py-[150px]">
+    <section id="footer" className="padding py-[10px]">
       <div className="flex justify-around border-[3px] border-t-orange-500 border-l-0 border-r-0 border-b-0 py-20">
         <h1 className="font-bold text-[52px] capitalize">logo</h1>
         <div>
@@ -49,8 +49,8 @@ export const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="after:content-[''] after:bg-[#8892b0] after:ml-[150px] after:h-[1px] after:w-[1220px] after:relative after:inline-block"></div>
-      <div className="flex justify-around py-10">
+      <div className="after:content-[''] after:bg-[#8892b0] after:ml-[100px] after:h-[1px] after:w-[90%] after:relative after:inline-block"></div>
+      <div className="flex items-center justify-center gap-x-10 py-10">
         <div className="flex gap-x-5">
           <a href="#">ABOUT US</a>
           <a href="#">CONTACT</a>
@@ -62,6 +62,6 @@ export const Footer = () => {
           Copyright © {year} Minimumlivingcost. All rights reserved
         </p>
       </div>
-    </div>
+    </section>
   );
 };

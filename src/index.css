@@ -6,7 +6,11 @@
     body {
         @apply font-primary scroll-smooth
     }
-
+    
+    .button {
+        @apply capitalize p-3 rounded-md text-[#ffffff] bg-orange-600
+    }
+    
     .padding {
         @apply max-w-full px-[8%]
     }
@@ -24,10 +28,10 @@
     }
 
     .form-input {
-        @apply px-3 py-2 bg-gray-100 outline-none rounded-sm border border-gray-200
+        @apply px-3 py-2 bg-gray-100 outline-none rounded-sm border border-gray-200 w-full
     }
 
     .form-label {
-        @apply flex font-bold items-center
+        @apply flex font-bold items-center capitalize
     }
 }
