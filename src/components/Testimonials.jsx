@@ -1,18 +1,17 @@
-import image from "../assets/Ellipse4.png"
+import image2 from "../assets/hero.png";
+import image from "../assets/Ellipse4.png";
+import playbtn from "../assets/play-btn.png";
 import { useState, useEffect } from "react";
 import { ImQuotesLeft } from "react-icons/im";
 
 export const Testimonials = () => {
   return (
-    <section
-      id="testimonials"
-      className="padding bg-orange-600 bg-opacity-25 h-[596px] mt-[100px]"
-    >
-      <div className="flex flex-col items-center justify-a md:flex-row">
+    <section id="testimonials" className="py-20 border border-red-500">
+      <div className="grid grid-rows-2 gap-y-0 md:grid-cols-2 items-center md:flex-row relative">
+        <ImQuotesLeft className="absolute top-20 left-20 z-[-10] text-orange-600 opacity-25 text-8xl " />
         {/* REVIEWS CAROUSEL  */}
-        <div className="w-[50%] flex flex-col gap-y-4 opacity-100 px-5  bg-opacity-25 bg-no-repeat relative">
-          <ImQuotesLeft className="absolute top-0 z-[-10] text-orange-600 opacity-25 text-8xl"/>
-          <p className="">
+        <div className="flex flex-col w-full bg-orange-600 bg-opacity-25 gap-y-10 opacity-100 px-[100px] py-[150px]">
+          <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia cum
             nam esse quisquam, blanditiis sapiente iure at ducimus? Atque, non.
             Culpa provident architecto veritatis velit aliquid similique illum
@@ -31,9 +30,28 @@ export const Testimonials = () => {
               </div>
             </div>
           </div>
+          <div className="flex flex-row gap-x-3">
+            <p className="h-2 w-2 bg-orange-600 rounded-full"></p>
+            <p className="h-2 w-2 bg-gray-400 rounded-full"></p>
+            <p className="h-2 w-2 bg-gray-400 rounded-full"></p>
+          </div>
         </div>
         {/* YOUTUBE VIDEO  */}
-        <div className="w-[50%]"></div>
+        <div className="w-full mt-[-235px] md:mt-0 border">
+          <img
+            src={image2}
+            alt="place holder image for the youtube thumbnail"
+            className="h-[570px] w-full relative bg-linear-gradient(180deg, rgba(0, 0, 0, 0) 14.58%, rgba(56, 56, 56, 0.84) 100%)"
+          />
+          {/* PLAY BUTTON */}
+          <a href="#">
+            <img
+              src={playbtn}
+              alt="play button icon"
+              className="absolute top-[1050px] left-[160px] md:top-[250px] md:left-[1250px]"
+            />
+          </a>
+        </div>
       </div>
     </section>
   );
