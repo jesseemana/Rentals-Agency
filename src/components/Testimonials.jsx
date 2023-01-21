@@ -8,9 +8,9 @@ export const Testimonials = () => {
   return (
     <section id="testimonials" className="py-20">
       <div className="grid grid-rows-2 md:grid-rows-1 md:grid-cols-2 gap-y-0 items-center relative">
-        <ImQuotesLeft className="absolute top-20 left-20 z-[-10] text-orange-600 opacity-25 text-8xl " />
+        <ImQuotesLeft className="absolute top-20 left-20 z-[-10] text-orange-600 opacity-20 text-8xl " />
         {/* REVIEWS CAROUSEL  */}
-        <div className="flex flex-col w-full bg-orange-600 bg-opacity-25 gap-y-10 opacity-100 px-[100px] py-[150px]">
+        <div className="flex flex-col w-full bg-orange-600 bg-opacity-20 gap-y-10 opacity-100 px-[100px] py-[150px]">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia cum
             nam esse quisquam, blanditiis sapiente iure at ducimus? Atque, non.
@@ -41,14 +41,14 @@ export const Testimonials = () => {
           <img
             src={image2}
             alt="place holder image for the youtube thumbnail"
-            className="lg:h-[593px] w-full bg-linear-gradient(180deg, rgba(0, 0, 0, 0) 14.58%, rgba(56, 56, 56, 0.84) 100%)"
+            className="lg:h-[570px] w-full bg-linear-gradient(180deg, rgba(0, 0, 0, 0) 14.58%, rgba(56, 56, 56, 0.84) 100%)"
           />
           {/* PLAY BUTTON */}
           <a href="#">
             <img
               src={playbtn}
               alt="play button icon"
-              className="absolute top-[240px] left-[140px] lg:top-[240px] lg:left-[330px]"
+              className="absolute top-[240px] left-[140px] lg:top-[240px] lg:left-[370px]"
             />
           </a>
         </div>

@@ -12,21 +12,19 @@ export const Pagination = () => {
     <div className={`font-bold`}>
       <button
         onClick={handleButton}
-        className={`text-[#BDBDBD] p-4 border rounded-l-lg`}
+        className={`text-[#BDBDBD] p-4 border border-r-0 rounded-l-lg`}
       >
         Prev
       </button>
       <button
         onClick={() => setActive(!active)}
-        className={`${
-          active ? "bg-[#F4511E] text-[#ffffff]" : "text-[#F4511E] bg-[#ffffff]"
-        } p-4 border bg-white`}
+        className={`bg-[#f4511e] text-[#ffffff] p-4 border bg-white`}
       >
         1
       </button>
       <button
         onClick={() => setActive(!active)}
-        className={` p-4 border bg-white`}
+        className={` p-4 border border-r-0 border-l-0 bg-white`}
       >
         2
       </button>
@@ -38,7 +36,7 @@ export const Pagination = () => {
       </button>
       <button
         onClick={() => setActive(!active)}
-        className={` p-4 border bg-white rounded-r-lg`}
+        className={` p-4 border border-l-0 bg-white rounded-r-lg`}
       >
         Next
       </button>
