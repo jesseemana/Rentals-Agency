@@ -20,8 +20,8 @@ export const Footer = () => {
   }, []);
 
   return (
-    <section id="footer" className="padding py-[30px]">
-      <div className="flex justify-around border-[3px] border-t-orange-500 border-l-0 border-r-0 border-b-0 py-20">
+    <section id="footer" className="padding mt-[200px]">
+      <div className="flex justify-around border-[3px] border-t-orange-600 border-l-0 border-r-0 border-b-0 py-20">
         <h1 className="font-bold text-[52px] capitalize">logo</h1>
         <div>
           <p className="flex items-center mb-10 gap-x-2">
@@ -49,7 +49,7 @@ export const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="after:content-[''] after:bg-[#8892b0] after:ml-[60px] after:h-[1px] after:w-[90%] after:relative after:inline-block"></div>
+      <div className="after:content-[''] after:bg-[#8892b0] after:bg-opacity-25 after:ml-[60px] after:h-[1px] after:w-[90%] after:relative after:inline-block"></div>
       <div className="flex items-center justify-around  py-10">
         <div className="flex gap-x-4">
           <a href="#">ABOUT US</a>

@@ -24,7 +24,7 @@
     }
 
     .icons {
-        @apply text-orange-500 text-xl
+        @apply text-orange-600 text-xl
     }
 
     .form-input {

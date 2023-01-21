@@ -11,6 +11,7 @@ module.exports = {
       },
       backgroundImage: {
         'hero': "url('./src/assets/hero.png')",
+        'icon': "url('./src/assets/quote.png')"
       },
       screens: {
         sm: "640px",
