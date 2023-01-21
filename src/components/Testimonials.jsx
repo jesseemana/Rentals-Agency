@@ -6,8 +6,8 @@ import { ImQuotesLeft } from "react-icons/im";
 
 export const Testimonials = () => {
   return (
-    <section id="testimonials" className="py-20 border border-red-500">
-      <div className="grid grid-rows-2 gap-y-0 md:grid-cols-2 items-center md:flex-row relative">
+    <section id="testimonials" className="py-20">
+      <div className="grid grid-rows-2 md:grid-rows-1 md:grid-cols-2 gap-y-0 items-center relative">
         <ImQuotesLeft className="absolute top-20 left-20 z-[-10] text-orange-600 opacity-25 text-8xl " />
         {/* REVIEWS CAROUSEL  */}
         <div className="flex flex-col w-full bg-orange-600 bg-opacity-25 gap-y-10 opacity-100 px-[100px] py-[150px]">
@@ -37,18 +37,18 @@ export const Testimonials = () => {
           </div>
         </div>
         {/* YOUTUBE VIDEO  */}
-        <div className="w-full mt-[-235px] md:mt-0 border">
+        <div className="w-full mt-[-235px] md:mt-0 border relative ">
           <img
             src={image2}
             alt="place holder image for the youtube thumbnail"
-            className="h-[570px] w-full relative bg-linear-gradient(180deg, rgba(0, 0, 0, 0) 14.58%, rgba(56, 56, 56, 0.84) 100%)"
+            className="lg:h-[593px] w-full bg-linear-gradient(180deg, rgba(0, 0, 0, 0) 14.58%, rgba(56, 56, 56, 0.84) 100%)"
           />
           {/* PLAY BUTTON */}
           <a href="#">
             <img
               src={playbtn}
               alt="play button icon"
-              className="absolute top-[1050px] left-[160px] md:top-[250px] md:left-[1250px]"
+              className="absolute top-[240px] left-[140px] lg:top-[240px] lg:left-[330px]"
             />
           </a>
         </div>

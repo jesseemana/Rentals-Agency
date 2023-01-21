@@ -5,7 +5,7 @@ export const Form = () => {
   return (
     <section id="form" className="padding py-10">
         <h1 className="text-center capitalize font-[900] text-[22px] py-5">
-          your property with us and be confident your room will be filled out!
+          register your property with us and be confident your room will be filled out!
         </h1>
         <form
           action="submit"
