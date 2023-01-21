@@ -18,7 +18,7 @@ export const Pagination = () => {
       </button>
       <button
         onClick={() => setActive(!active)}
-        className={`bg-[#f4511e] text-[#ffffff] p-4 border bg-white`}
+        className={`bg-orange-500 text-black p-4 border bg-white`}
       >
         1
       </button>
